@@ -34,12 +34,12 @@ regions:
   footer_third: "Footer third"
   footer_fourth: "Footer fourth"
   footer_fifth: "Footer fifth"
+#Components
+components:
+  namespaces:
+    myComponents:
+      - components
 
-  #Components
-  components:
-    namespaces:
-      myComponents:
-        - components
 # Information added by Drupal.org packaging script on 2020-10-11
 version: "5.0.2"
 project: "customtheme"
