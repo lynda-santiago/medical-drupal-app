@@ -1,0 +1,52 @@
+uuid: 09fd53fa-f3aa-4744-a827-e3fa8514ba91
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.homepage_hero
+    - field.field.block_content.homepage_hero.body
+    - field.field.block_content.homepage_hero.field_button_link
+    - field.field.block_content.homepage_hero.field_hero_small_heading
+  module:
+    - link
+    - text
+id: block_content.homepage_hero.default
+targetEntityType: block_content
+bundle: homepage_hero
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_button_link:
+    weight: 27
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_hero_small_heading:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
