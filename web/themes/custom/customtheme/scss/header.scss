@@ -1,10 +1,16 @@
- 
-.bg-primary{
-    background: ghostwhite !important;
-    .header-logo{
-        width: 180px;
-    }
-     a.nav-link{
-        color: #666 !important;
-    }
+header {
+  background: ghostwhite;
 }
+.bg-primary {
+  background: ghostwhite !important;
+  max-width: 1140px;
+  margin: 0 auto;
+  .header-logo {
+    width: 180px;
+  }
+  a.nav-link {
+    color: black !important;
+    margin-left: 30px;
+  }
+}
+
