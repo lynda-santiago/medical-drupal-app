@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+
+
 .hero-section {
  width: 100%;
  background-image: url("/themes/custom/customtheme/components/homepage_hero/hero-background.jpg");
@@ -31,7 +33,8 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     margin-bottom: 50px;
-    color: #847979;
+    color: black;
+    font-weight: 100;
    }
    a {
     background: #00a3c8;
@@ -52,6 +55,7 @@
     width: 120%;
     position: relative;
     right: -25px;
+    margin: 0;
    }
   }
  }
