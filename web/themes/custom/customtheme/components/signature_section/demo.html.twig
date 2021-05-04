@@ -1,0 +1,12 @@
+{% embed '@bootstrap_barrio/layout/page.html.twig' %}
+	{% block content %}
+	{% embed '@myComponents/signature_section/signature_section.html.twig' with {
+  small_heading: 'welcome to medical lorem',
+  title_heading: 'Complete Medical Solutions in One Place',
+  description: 'Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor tempus feugiat dolor lacinia cubilia curae integer congue leo metus, eu mollislorem primis in orci integer metus mollis faucibus. An enim nullam tempor sapien gravida donec pretium and ipsum porta justo integer at velna vitae auctor integer congue',
+  image: "<img src='/themes/custom/customtheme/components/signature_section/nurses-image.png'>",
+  name_job_title: 'Random Person, Head Of Clinic',
+  signature_logo: "<img src='/themes/custom/customtheme/components/signature_section/signature-logo.png' class='signature-logo'>"
+} %}{% endembed %}
+	{% endblock %}
+{% endembed %}
