@@ -6,8 +6,11 @@ dependencies:
     - block_content.type.homepage_hero
     - field.field.block_content.homepage_hero.body
     - field.field.block_content.homepage_hero.field_button_link
+    - field.field.block_content.homepage_hero.field_hero_image
     - field.field.block_content.homepage_hero.field_hero_small_heading
+    - image.style.thumbnail
   module:
+    - image
     - link
     - text
 id: block_content.homepage_hero.default
@@ -32,6 +35,14 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_hero_image:
+    weight: 29
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_hero_small_heading:
     weight: 28

@@ -6,8 +6,10 @@ dependencies:
     - block_content.type.homepage_hero
     - field.field.block_content.homepage_hero.body
     - field.field.block_content.homepage_hero.field_button_link
+    - field.field.block_content.homepage_hero.field_hero_image
     - field.field.block_content.homepage_hero.field_hero_small_heading
   module:
+    - image
     - link
     - text
 id: block_content.homepage_hero.default
@@ -33,6 +35,15 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
+  field_hero_image:
+    weight: 3
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
     region: content
   field_hero_small_heading:
     weight: 2
