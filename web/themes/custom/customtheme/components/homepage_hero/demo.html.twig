@@ -1,0 +1,12 @@
+{% embed '@bootstrap_barrio/layout/page.html.twig' %}
+	{% block content %}
+		{% embed '@myComponents/homepage_hero/homepage_hero.html.twig' with {
+  small_heading: 'welcome to our clinic',
+  title_heading: 'take care of your health',
+  description: 'Feugiat primis ligula risus auctor egestas augue mauri viverra tortor in iaculis placerat eugiat mauris ipsum in viverra tortor and gravida purus pretium lorem primis in orci integer mollis',
+  link_url: 'https://www.google.com',
+  button_text: 'More About Clinic',
+  image: "<img src='/themes/custom/customtheme/components/homepage_hero/hero-img.png'>"
+} %}{% endembed %}
+	{% endblock %}
+{% endembed %}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.hero-section {
+ width: 100%;
+ background-image: url("/themes/custom/customtheme/components/homepage_hero/hero-background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top: 40px;
+ font-family: "Lato", sans-serif;
+ .hero-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  .left-col {
+   width: 50%;
+   div {
+    color: #004861;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+   }
+   h2 {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #004861;
+    margin: 25px 0px;
+   }
+   p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+   }
+   a {
+    background: #00a3c8;
+    color: ghostwhite;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.6s;
+    &:hover {
+     background: #004861;
+     transition: 0.6s;
+    }
+   }
+  }
+  .right-col {
+   img {
+    width: 100%;
+   }
+  }
+ }
+}
