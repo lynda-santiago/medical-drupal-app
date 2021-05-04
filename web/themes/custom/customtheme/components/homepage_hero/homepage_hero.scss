@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 .hero-section {
@@ -13,7 +13,7 @@
   margin: 0 auto;
   display: flex;
   .left-col {
-   width: 50%;
+   width: 60%;
    div {
     color: #004861;
     font-weight: bold;
@@ -21,8 +21,8 @@
     letter-spacing: 0.5px;
    }
    h2 {
-    font-size: 72px;
-    font-weight: bold;
+    font-size: 65px;
+    font-weight: 900;
     text-transform: uppercase;
     color: #004861;
     margin: 25px 0px;
@@ -31,6 +31,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     margin-bottom: 50px;
+    color: #847979;
    }
    a {
     background: #00a3c8;
@@ -48,7 +49,9 @@
   }
   .right-col {
    img {
-    width: 100%;
+    width: 120%;
+    position: relative;
+    right: -25px;
    }
   }
  }
