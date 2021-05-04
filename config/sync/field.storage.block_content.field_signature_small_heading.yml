@@ -1,0 +1,21 @@
+uuid: 0a71fff8-6882-43bb-95dd-e465d0a77b1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_signature_small_heading
+field_name: field_signature_small_heading
+entity_type: block_content
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

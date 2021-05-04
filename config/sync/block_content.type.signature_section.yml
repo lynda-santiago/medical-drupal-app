@@ -1,0 +1,8 @@
+uuid: f492397d-1cec-42d3-907e-d3701c8ff6d8
+langcode: en
+status: true
+dependencies: {  }
+id: signature_section
+label: 'Signature Section'
+revision: 0
+description: ''

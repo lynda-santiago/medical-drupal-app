@@ -1,0 +1,19 @@
+uuid: 6887fccd-1081-431b-bcfa-d9461850d8bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_info
+    - field.storage.block_content.field_phone_number
+id: block_content.contact_info.field_phone_number
+field_name: field_phone_number
+entity_type: block_content
+bundle: contact_info
+label: 'Phone number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

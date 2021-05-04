@@ -1,0 +1,23 @@
+uuid: 7bbdbf9d-cada-4ff6-9227-5ddcd6bb54c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.health_care_service
+  module:
+    - text
+id: node.health_care_service.body
+field_name: body
+entity_type: node
+bundle: health_care_service
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

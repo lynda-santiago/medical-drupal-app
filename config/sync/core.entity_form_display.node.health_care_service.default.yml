@@ -1,37 +1,45 @@
-uuid: 19d0fa8e-797a-4e1b-8984-72893945ad4f
+uuid: ff15ce0b-7668-4f8a-bcd8-2e238a8c7ac4
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - field.field.node.page.layout_builder__layout
-    - node.type.page
+    - field.field.node.health_care_service.body
+    - field.field.node.health_care_service.field_health_service_logo
+    - image.style.thumbnail
+    - node.type.health_care_service
   module:
+    - image
     - path
     - text
-_core:
-  default_config_hash: AD_lefuYmjsKeH3OQApsyP_nLj6ZnGaALznLQSQ0Z_o
-id: node.page.default
+id: node.health_care_service.default
 targetEntityType: node
-bundle: page
+bundle: health_care_service
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 31
-    region: content
+    weight: 121
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_health_service_logo:
+    weight: 122
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
   path:
     type: path
     weight: 30
@@ -70,12 +78,11 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 5
-    region: content
     settings:
       match_operator: CONTAINS
-      match_limit: 10
       size: 60
       placeholder: ''
+      match_limit: 10
+    region: content
     third_party_settings: {  }
-hidden:
-  layout_builder__layout: true
+hidden: {  }

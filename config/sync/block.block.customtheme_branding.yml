@@ -1,6 +1,6 @@
 uuid: eaa8aec2-1693-4d28-b662-bca442757255
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: customtheme_branding
 theme: customtheme
 region: header
-weight: 0
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:

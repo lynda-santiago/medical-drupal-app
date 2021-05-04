@@ -1,0 +1,23 @@
+uuid: 3178cadd-23b5-4c7a-afc9-cfc84bc3e840
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_info
+    - field.storage.block_content.field_button_link
+  module:
+    - link
+id: block_content.contact_info.field_button_link
+field_name: field_button_link
+entity_type: block_content
+bundle: contact_info
+label: 'Button link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

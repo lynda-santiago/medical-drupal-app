@@ -1,0 +1,62 @@
+uuid: a5550bf9-3e11-463c-a4d4-b38cd6831e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.signature_section
+    - field.field.block_content.signature_section.body
+    - field.field.block_content.signature_section.field_name_job_title
+    - field.field.block_content.signature_section.field_signature_image
+    - field.field.block_content.signature_section.field_signature_small_heading
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.signature_section.default
+targetEntityType: block_content
+bundle: signature_section
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_name_job_title:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_signature_image:
+    weight: 29
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_signature_small_heading:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
