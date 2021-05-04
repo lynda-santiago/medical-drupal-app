@@ -1,0 +1,12 @@
+{% embed '@bootstrap_barrio/layout/page.html.twig' %}
+	{% block content %}
+		{% embed '@myComponents/contact_info/contact_info.html.twig' with {
+  title_heading: 'Emergency Cases',
+  description: 'An magnis nulla dolor sapien augue erat iaculis purus tempor magna ipsum and vitae a purus primis ipsum magna ipsum',
+  link_url: 'https://www.google.com',
+  button_text: 'Make An Appointment',
+  phone_number: '1-800-123-4560',
+  phone_icon: "<img src='/themes/custom/customtheme/components/contact_info/phone-icon.png'>"
+} %}{% endembed %}
+	{% endblock %}
+{% endembed %}
