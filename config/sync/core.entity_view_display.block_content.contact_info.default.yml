@@ -6,8 +6,10 @@ dependencies:
     - block_content.type.contact_info
     - field.field.block_content.contact_info.body
     - field.field.block_content.contact_info.field_button_link
+    - field.field.block_content.contact_info.field_phone_icon
     - field.field.block_content.contact_info.field_phone_number
   module:
+    - image
     - link
     - text
 id: block_content.contact_info.default
@@ -16,7 +18,7 @@ bundle: contact_info
 mode: default
 content:
   body:
-    label: hidden
+    label: visually_hidden
     type: text_default
     weight: 0
     settings: {  }
@@ -24,7 +26,7 @@ content:
     region: content
   field_button_link:
     weight: 1
-    label: above
+    label: visually_hidden
     settings:
       trim_length: 80
       url_only: false
@@ -34,9 +36,18 @@ content:
     third_party_settings: {  }
     type: link
     region: content
+  field_phone_icon:
+    weight: 3
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
   field_phone_number:
     weight: 2
-    label: above
+    label: visually_hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
