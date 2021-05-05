@@ -1,5 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+#block-customtheme-content
+ > div
+ > article
+ > div
+ > div.layout.layout--fourcol-section {
+ max-width: 1140px;
+ margin: 0 auto;
+ position: relative;
+ top: -160px;
+}
+#block-customtheme-content
+ > div
+ > article
+ > div
+ > div.layout.layout--fourcol-section
+ > div.layout__region.layout__region--first {
+ .contact-info-container {
+  background-color: #36a8eb;
+  border-radius: 6px 0 0 6px;
+  a{
+      display: none;
+  }
+ }
+}
+#block-customtheme-content
+ > div
+ > article
+ > div
+ > div.layout.layout--fourcol-section
+ > div.layout__region.layout__region--second {
+ .contact-info-container {
+  background-color: #088edd;
+ }
+}
+#block-customtheme-content
+ > div
+ > article
+ > div
+ > div.layout.layout--fourcol-section
+ > div.layout__region.layout__region--third {
+ .contact-info-container {
+  background-color: #1977cc;
+ }
+}
+#block-customtheme-content
+ > div
+ > article
+ > div
+ > div.layout.layout--fourcol-section
+ > div.layout__region.layout__region--fourth {
+ .contact-info-container {
+  background-color: #1063af;
+  border-radius: 0 6px 6px 0;
+  a{
+      display: none;
+  }
+ }
+}
+div.phone-num img{
+     width: 25px;
+ }
 .contact-info-section {
  width: 100%;
  font-family: "Lato", sans-serif;
@@ -9,30 +70,15 @@
   color: ghostwhite;
   max-width: 1140px;
   display: flex;
-   position: absolute;
-  top: -165ddpx;
+  position: absolute;
+  top: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
 
   .info-card {
    height: 300px;
-   width: 25%;
    padding: 30px;
-   &:nth-child(1) {
-    background-color: #36a8eb;
-    border-radius: 6px 0 0 6px;
-   }
-   &:nth-child(2) {
-    background-color: #088edd;
-   }
-   &:nth-child(3) {
-    background-color: #1977cc;
-   }
-   &:nth-child(4) {
-    background-color: #1063af;
-    border-radius: 0 6px 6px 0;
-   }
    .title-heading {
     font-size: 20px;
     font-weight: bold;
@@ -45,9 +91,6 @@
      height: 25px;
     }
    }
-   p {
-    margin-bottom: 28px;
-   }
    a {
     color: white;
     text-decoration: none;
@@ -56,6 +99,8 @@
     padding: 10px;
     font-size: 12.5px;
     transition: 0.6s;
+    position: absolute;
+    bottom: 40px;
     &:hover {
      background: #f3eded6b;
      transition: 0.6s;
