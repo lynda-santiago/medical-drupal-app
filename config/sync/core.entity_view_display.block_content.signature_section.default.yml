@@ -5,6 +5,7 @@ dependencies:
   config:
     - block_content.type.signature_section
     - field.field.block_content.signature_section.body
+    - field.field.block_content.signature_section.field_image
     - field.field.block_content.signature_section.field_name_job_title
     - field.field.block_content.signature_section.field_signature_image
     - field.field.block_content.signature_section.field_signature_small_heading
@@ -17,23 +18,32 @@ bundle: signature_section
 mode: default
 content:
   body:
-    label: hidden
+    label: visually_hidden
     type: text_default
     weight: 0
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_image:
+    weight: 4
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
   field_name_job_title:
     weight: 2
-    label: above
+    label: visually_hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
   field_signature_image:
-    weight: 3
-    label: above
+    weight: 5
+    label: visually_hidden
     settings:
       image_style: ''
       image_link: ''
@@ -42,7 +52,7 @@ content:
     region: content
   field_signature_small_heading:
     weight: 1
-    label: above
+    label: visually_hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

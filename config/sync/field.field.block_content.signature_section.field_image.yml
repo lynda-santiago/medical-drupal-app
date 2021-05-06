@@ -1,38 +1,38 @@
-uuid: 9762a7a7-b39a-4900-8bae-e4bb010c1d7c
+uuid: be089a6a-bfd1-4098-9e4a-43724c643bee
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.signature_section
-    - field.storage.block_content.field_signature_image
+    - field.storage.block_content.field_image
   module:
     - image
-id: block_content.signature_section.field_signature_image
-field_name: field_signature_image
+id: block_content.signature_section.field_image
+field_name: field_image
 entity_type: block_content
 bundle: signature_section
-label: 'Signature Image'
+label: image
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
-  max_filesize: ''
-  max_resolution: ''
-  min_resolution: ''
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
   default_image:
-    uuid: ''
+    uuid: null
     alt: ''
     title: ''
     width: null
     height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
   handler: 'default:file'
   handler_settings: {  }
 field_type: image
