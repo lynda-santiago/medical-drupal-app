@@ -8,6 +8,7 @@ dependencies:
     - field.field.block_content.contact_info.field_button_link
     - field.field.block_content.contact_info.field_phone_icon
     - field.field.block_content.contact_info.field_phone_number
+    - field.field.block_content.contact_info.field_section_main_title
     - image.style.thumbnail
   module:
     - image
@@ -51,6 +52,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_section_main_title:
+    weight: 30
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
     region: content
   info:
     type: string_textfield
