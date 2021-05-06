@@ -1,0 +1,11 @@
+{% embed '@bootstrap_barrio/layout/page.html.twig' %}
+	{% block content %}
+		{% embed '@myComponents/doctor_blog_entry/doctor_blog_entry.html.twig' with {
+card_image: '<img src="https://jthemes.net/themes/html/medservices/files/images/doctor-1.jpg">',
+doctor_name: 'Jonathan Barnes D.M.',
+doctor_type: 'Chief Medical Officer',
+description: 'Donec vel sapien augue integer turpis cursus porta, mauris sed augue luctus magna dolor luctus ipsum neque',
+}%}
+{% endembed %}
+	{% endblock %}
+{% endembed %}
