@@ -1,0 +1,23 @@
+uuid: 88dbfd37-4f38-48d9-a552-894a016ecc39
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonials_main_heading
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.testimonials_main_heading.body
+field_name: body
+entity_type: block_content
+bundle: testimonials_main_heading
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

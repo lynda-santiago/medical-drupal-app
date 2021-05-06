@@ -1,0 +1,22 @@
+uuid: d0f127ec-9b21-48cc-9ba4-fbaf08b39107
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonials_main_heading
+    - field.field.block_content.testimonials_main_heading.body
+  module:
+    - text
+id: block_content.testimonials_main_heading.default
+targetEntityType: block_content
+bundle: testimonials_main_heading
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
