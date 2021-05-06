@@ -1,0 +1,10 @@
+{% embed '@bootstrap_barrio/templates/layout/page.html.twig' %}
+	{% block content %}
+		{% embed '@myComponents/patient_testimonial/patient_testimonial.html.twig' with {
+card_image: "<img src='https://jthemes.net/themes/html/medservices/files/images/review-author-2.jpg'>",
+description: 'Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue cursus porta feugiat',
+patient_name: 'M. SCANLON',
+patient_occupation: 'Photographer'
+}%}{% endembed %}
+	{% endblock %}
+{% endembed %}
