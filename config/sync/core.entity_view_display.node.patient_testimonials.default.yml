@@ -1,0 +1,48 @@
+uuid: da2648ec-d60e-4138-bc85-1f24d21deec4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.patient_testimonials.body
+    - field.field.node.patient_testimonials.field_patient_image
+    - field.field.node.patient_testimonials.field_patient_occupation
+    - node.type.patient_testimonials
+  module:
+    - image
+    - text
+    - user
+id: node.patient_testimonials.default
+targetEntityType: node
+bundle: patient_testimonials
+mode: default
+content:
+  body:
+    label: visually_hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_patient_image:
+    weight: 102
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_patient_occupation:
+    weight: 104
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,34 @@
+uuid: e9a077be-fbc1-417a-b39d-f697ae406e92
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.patient_testimonials.body
+    - field.field.node.patient_testimonials.field_patient_image
+    - field.field.node.patient_testimonials.field_patient_occupation
+    - node.type.patient_testimonials
+  module:
+    - text
+    - user
+id: node.patient_testimonials.teaser
+targetEntityType: node
+bundle: patient_testimonials
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_patient_image: true
+  field_patient_occupation: true
