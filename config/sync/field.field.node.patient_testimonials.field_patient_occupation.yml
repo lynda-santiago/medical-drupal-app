@@ -1,0 +1,19 @@
+uuid: 83b0dab8-4b6e-42c9-a48c-f8d4d21e7c96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_patient_occupation
+    - node.type.patient_testimonials
+id: node.patient_testimonials.field_patient_occupation
+field_name: field_patient_occupation
+entity_type: node
+bundle: patient_testimonials
+label: 'Patient occupation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
