@@ -1,0 +1,19 @@
+uuid: 114507d3-9788-4f70-9c58-a55876e09755
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_info
+    - field.storage.block_content.field_section_main_title
+id: block_content.contact_info.field_section_main_title
+field_name: field_section_main_title
+entity_type: block_content
+bundle: contact_info
+label: 'Section main title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
