@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+div.field.field--name-field-image img{
+  width: 200px;
+  height: 33.5px;
+  margin-top: 15px;
+}
 .signature-section {
  width: 100%;
  font-family: "Lato", sans-serif;
  padding-top: 100px;
  background: ghostwhite;
- 
+
  .signature-container {
   max-width: 1140px;
   display: flex;
@@ -14,6 +19,7 @@
   .left-col {
    img {
     width: 100%;
+    margin: 0;
    }
   }
   .right-col {
@@ -34,6 +40,7 @@
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #004861;
    }
    p {
     margin-bottom: 30px;
