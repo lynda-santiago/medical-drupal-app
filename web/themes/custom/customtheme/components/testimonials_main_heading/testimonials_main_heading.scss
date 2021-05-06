@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+.testimonials-heading-section {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  background: white;
+  font-family: "Lato", sans-serif;
+  .testimonials-heading-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      color: #004861;
+      font-size: 42px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #888;
+      line-height: 1.5;
+      text-align: center;
+      max-width: 540px;
+    }
+  }
+}

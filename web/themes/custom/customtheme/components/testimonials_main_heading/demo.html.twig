@@ -1,0 +1,8 @@
+{% embed '@bootstrap_barrio/templates/layout/page.html.twig' %}
+	{% block content %}
+		{% embed '@myComponents/testimonials_main_heading/testimonials_main_heading.html.twig' with {
+testimonials_heading: 'What Our Patients Say',
+description: 'Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero </br> at tempus, blandit posuere ligula varius congue cursus porta feugiat'
+}%}{% endembed %}
+	{% endblock %}
+{% endembed %}
