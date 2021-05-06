@@ -1,7 +1,13 @@
+*{
+    border-color: rgba(0,0,0,0)
+}
 .main-content{
  padding-left: 0;
  padding-right: 0;
 }
 .node__content{
     margin-top: 0;
+}
+#block-customtheme-content > div > article > div > div:nth-child(5){
+        border-color: #ff000000;
 }
