@@ -1,0 +1,25 @@
+uuid: b20b9161-18e2-4617-9fb1-a90156096f8f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contact_info:8dd014b0-b1b1-44d5-83e7-5d7aeaad6f0f'
+  module:
+    - block_content
+  theme:
+    - customtheme
+id: workinghours
+theme: customtheme
+region: featured_bottom_first
+weight: -4
+provider: null
+plugin: 'block_content:8dd014b0-b1b1-44d5-83e7-5d7aeaad6f0f'
+settings:
+  id: 'block_content:8dd014b0-b1b1-44d5-83e7-5d7aeaad6f0f'
+  label: 'Working hours'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

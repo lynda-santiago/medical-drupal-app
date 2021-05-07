@@ -1,0 +1,25 @@
+uuid: 669bcba1-6172-4f7e-a446-65eabda37fcf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contact_info:4b1b34a8-ff4b-4819-ae21-c44c8fa69d0a'
+  module:
+    - block_content
+  theme:
+    - customtheme
+id: medservice
+theme: customtheme
+region: featured_bottom_first
+weight: -8
+provider: null
+plugin: 'block_content:4b1b34a8-ff4b-4819-ae21-c44c8fa69d0a'
+settings:
+  id: 'block_content:4b1b34a8-ff4b-4819-ae21-c44c8fa69d0a'
+  label: MedService
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

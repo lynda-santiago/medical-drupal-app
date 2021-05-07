@@ -1,0 +1,25 @@
+uuid: 21223add-2a2b-465f-bc00-bb0dfe6af2de
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contact_info:2f3dcb3c-0755-4df4-a4e9-df3913c53b16'
+  module:
+    - block_content
+  theme:
+    - customtheme
+id: emergency
+theme: customtheme
+region: featured_bottom_first
+weight: -5
+provider: null
+plugin: 'block_content:2f3dcb3c-0755-4df4-a4e9-df3913c53b16'
+settings:
+  id: 'block_content:2f3dcb3c-0755-4df4-a4e9-df3913c53b16'
+  label: Emergency
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

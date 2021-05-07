@@ -1,0 +1,25 @@
+uuid: 592a7560-83bb-4ce0-bed9-573469aaa5f2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contact_info:7417b6eb-5341-4d50-9b53-b23313d82b6b'
+  module:
+    - block_content
+  theme:
+    - customtheme
+id: c2019medservice.allrightsreserved
+theme: customtheme
+region: featured_bottom_second
+weight: -8
+provider: null
+plugin: 'block_content:7417b6eb-5341-4d50-9b53-b23313d82b6b'
+settings:
+  id: 'block_content:7417b6eb-5341-4d50-9b53-b23313d82b6b'
+  label: '© 2019 MedService. All Rights Reserved'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 034c5041-c495-4c05-af87-c41619745c28
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contact_info:29ae905e-9425-4c1f-9969-371e27cd671f'
+  module:
+    - block_content
+  theme:
+    - customtheme
+id: ourlocation
+theme: customtheme
+region: featured_bottom_first
+weight: -7
+provider: null
+plugin: 'block_content:29ae905e-9425-4c1f-9969-371e27cd671f'
+settings:
+  id: 'block_content:29ae905e-9425-4c1f-9969-371e27cd671f'
+  label: 'Our Location'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
