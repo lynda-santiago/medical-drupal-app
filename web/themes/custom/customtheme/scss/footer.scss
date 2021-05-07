@@ -6,8 +6,7 @@
   > section.row.region.region-featured-bottom-first {
   max-width: 1140px;
   margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding: 70px 0px;
   display: flex;
   justify-content: space-between;
   font-family: 'Lato', sans-serif;
@@ -22,7 +21,7 @@
   }
 }
 #page > div.featured-bottom {
-  background: ghostwhite;
+  background: white;
 }
 
 #block-medservice {
