@@ -5,6 +5,7 @@ dependencies:
   config:
     - block_content.type.signature_section
     - field.field.block_content.signature_section.body
+    - field.field.block_content.signature_section.field_certificate_two
     - field.field.block_content.signature_section.field_image
     - field.field.block_content.signature_section.field_name_job_title
     - field.field.block_content.signature_section.field_signature_image
@@ -27,6 +28,14 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+    region: content
+  field_certificate_two:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_image:
     weight: 30

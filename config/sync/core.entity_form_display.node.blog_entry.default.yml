@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.blog_entry.field_blog_link
     - field.field.node.blog_entry.field_blog_tags
     - field.field.node.blog_entry.field_doctor_type
+    - field.field.node.blog_entry.layout_builder__layout
     - image.style.thumbnail
     - node.type.blog_entry
   module:
@@ -101,4 +102,5 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  layout_builder__layout: true
   uid: true

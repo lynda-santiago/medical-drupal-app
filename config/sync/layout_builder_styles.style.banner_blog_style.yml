@@ -1,0 +1,11 @@
+uuid: eb84aee0-17c2-4ae9-a80c-b8f0ad6ee043
+langcode: en
+status: true
+dependencies: {  }
+id: banner_blog_style
+label: 'banner blog style'
+classes: banner-blog-style
+type: section
+weight: 0
+block_restrictions: {  }
+layout_restrictions: {  }

@@ -1,0 +1,11 @@
+uuid: 69b42cda-2f4c-4ab8-9894-07dbad50da8b
+langcode: en
+status: true
+dependencies: {  }
+id: container_ghostwhite
+label: 'Container Ghostwhite'
+classes: container-styles-ghostwhite
+type: section
+weight: 0
+block_restrictions: {  }
+layout_restrictions: {  }

@@ -1,0 +1,11 @@
+uuid: 533beaa4-fb48-46dd-a52c-d4f3c23c65a6
+langcode: en
+status: true
+dependencies: {  }
+id: container_styles
+label: 'Container styles'
+classes: container-styles
+type: section
+weight: 0
+block_restrictions: {  }
+layout_restrictions: {  }

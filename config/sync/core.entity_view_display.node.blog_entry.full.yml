@@ -1,8 +1,9 @@
-uuid: ec32b2f4-a1b6-4db7-8ae1-f2473337fb19
+uuid: a6bf766e-bc6f-48bd-9b4a-d8c24607da00
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.blog_entry.body
     - field.field.node.blog_entry.field_blog_image
     - field.field.node.blog_entry.field_blog_link
@@ -10,6 +11,7 @@ dependencies:
     - field.field.node.blog_entry.field_doctor_type
     - field.field.node.blog_entry.layout_builder__layout
     - node.type.blog_entry
+    - views.view.patient_testimonials
   module:
     - image
     - layout_builder
@@ -17,9 +19,10 @@ dependencies:
     - link
     - text
     - user
+    - views
 third_party_settings:
   layout_builder:
-    allow_custom: false
+    allow_custom: true
     enabled: true
     sections:
       -
@@ -27,8 +30,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          925b7ac4-d86f-4512-b4c5-48b6b1fc6c13:
-            uuid: 925b7ac4-d86f-4512-b4c5-48b6b1fc6c13
+          6ba8d67d-a025-4cde-9c39-0710d7840423:
+            uuid: 6ba8d67d-a025-4cde-9c39-0710d7840423
             region: content
             configuration:
               label_display: '0'
@@ -43,50 +46,8 @@ third_party_settings:
                 type: entity_reference_label
             additional: {  }
             weight: 0
-          16625b89-4bac-4833-8e27-4ea70155168d:
-            uuid: 16625b89-4bac-4833-8e27-4ea70155168d
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:blog_entry:field_blog_image'
-              formatter:
-                label: visually_hidden
-                settings:
-                  image_style: ''
-                  image_link: ''
-                third_party_settings: {  }
-                type: image
-            additional: {  }
-            weight: 1
-          c8e9e383-775a-4ce1-9bdb-d3a047e2fa89:
-            uuid: c8e9e383-775a-4ce1-9bdb-d3a047e2fa89
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:blog_entry:body'
-              formatter:
-                label: visually_hidden
-                type: text_default
-                settings: {  }
-                third_party_settings: {  }
-            additional: {  }
-            weight: 2
-          9e1f9452-155d-4cd6-bbe0-0fa3a685fa3d:
-            uuid: 9e1f9452-155d-4cd6-bbe0-0fa3a685fa3d
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'extra_field_block:node:blog_entry:links'
-            additional: {  }
-            weight: 3
-          4c62fe61-b4ed-4c12-bb2a-94416cca0bf8:
-            uuid: 4c62fe61-b4ed-4c12-bb2a-94416cca0bf8
+          e9259ff5-afe2-4d1a-b216-18105ba19c0f:
+            uuid: e9259ff5-afe2-4d1a-b216-18105ba19c0f
             region: content
             configuration:
               label_display: '0'
@@ -100,32 +61,51 @@ third_party_settings:
                 third_party_settings: {  }
                 type: string
             additional: {  }
-            weight: 4
-          d897bcb8-7748-4bc7-b66b-a3f5ff86138e:
-            uuid: d897bcb8-7748-4bc7-b66b-a3f5ff86138e
+            weight: 5
+          8a722c44-58bf-45ae-a34d-2ebb0775bf02:
+            uuid: 8a722c44-58bf-45ae-a34d-2ebb0775bf02
             region: content
             configuration:
+              id: 'field_block:node:blog_entry:field_blog_image'
+              label: 'Doctor Image'
+              provider: layout_builder
               label_display: '0'
+              formatter:
+                label: visually_hidden
+                type: image
+                settings:
+                  image_style: large
+                  image_link: ''
+                third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity
-              id: 'field_block:node:blog_entry:field_blog_link'
-              formatter:
-                label: above
-                settings:
-                  trim_length: 80
-                  url_only: false
-                  url_plain: false
-                  rel: ''
-                  target: ''
-                third_party_settings: {  }
-                type: link
+                view_mode: view_mode
             additional: {  }
-            weight: 5
+            weight: 2
         third_party_settings: {  }
-id: node.blog_entry.default
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          367c5a7c-297f-484b-83f9-047bfc2b53f4:
+            uuid: 367c5a7c-297f-484b-83f9-047bfc2b53f4
+            region: content
+            configuration:
+              id: 'views_block:patient_testimonials-block_1'
+              label: ''
+              provider: views
+              label_display: visible
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+id: node.blog_entry.full
 targetEntityType: node
 bundle: blog_entry
-mode: default
+mode: full
 content:
   body:
     label: visually_hidden
