@@ -1,0 +1,56 @@
+#block-customtheme-content > div > article > div > div:nth-child(11) > div {
+  background-image: url("/themes/custom/customtheme/components/view_all_doctors/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#block-customtheme-content
+  > div
+  > article
+  > div
+  > div:nth-child(11)
+  > div
+  > div
+  > div
+  > div.left-col
+  > div
+  > div.field__item
+  > img {
+  margin-top: -100px;
+  margin-bottom: 0px;
+}
+.view-doctors-container {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  .right-col {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    justify-content: center;
+    .view-docs-small-heading {
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 44px;
+      font-weight: 700;
+      margin: 25px 0px;
+    }
+    a {
+      background-color: transparent;
+      padding: 10px 24px;
+      border: 2px solid white;
+      border-radius: 6px;
+      color: white;
+      text-decoration: none;
+      width: 40%;
+      text-align: center;
+      &:hover {
+        border: 2px solid transparent;
+        background: #0e8eab;
+      }
+    }
+  }
+}
