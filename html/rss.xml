@@ -1,0 +1,1051 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_rss' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-rss.html.twig' -->
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xml:base="http://mysite.com/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Drush Site-Install</title>
+    <link>http://mysite.com/</link>
+    <description></description>
+    <language>en</language>
+    
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+<item>
+  <title>Mell U</title>
+  <link>http://mysite.com/node/30</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--patient-testimonials.html.twig
+   x field--node--title.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-title field--type-string field--label-hidden&quot;&gt;Mell U&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--patient-testimonials.html.twig
+   x field--node--uid.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-uid field--type-entity-reference field--label-hidden&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--patient-testimonials.html.twig
+   x field--node--created.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-created field--type-created field--label-hidden&quot;&gt;Wed, 05/05/2021 - 23:58&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links--inline.html.twig
+   * links--node.html.twig
+   * links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--patient-testimonials.html.twig
+   * field--node--body.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--body.html.twig
+   x field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;clearfix text-formatted field field--name-body field--type-text-with-summary field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Body&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;&lt;p&gt;Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-image--patient-testimonials.html.twig
+   * field--node--field-patient-image.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-image.html.twig
+   * field--image.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-image field--type-image field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient image&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image_formatter&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+  
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+&lt;img src=&quot;/sites/default/files/2021-05/patient-img-5_1.jpg&quot; width=&quot;140&quot; height=&quot;140&quot; alt=&quot;patient image&quot; loading=&quot;lazy&quot; typeof=&quot;foaf:Image&quot; /&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-occupation--patient-testimonials.html.twig
+   * field--node--field-patient-occupation.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-occupation.html.twig
+   * field--string.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-occupation field--type-string field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient occupation&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;Youtuber&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Wed, 05 May 2021 23:58:18 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">30 at http://mysite.com</guid>
+    </item>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+<item>
+  <title>Rob S.</title>
+  <link>http://mysite.com/node/29</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--patient-testimonials.html.twig
+   x field--node--title.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-title field--type-string field--label-hidden&quot;&gt;Rob S.&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--patient-testimonials.html.twig
+   x field--node--uid.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-uid field--type-entity-reference field--label-hidden&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--patient-testimonials.html.twig
+   x field--node--created.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-created field--type-created field--label-hidden&quot;&gt;Wed, 05/05/2021 - 23:57&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links--inline.html.twig
+   * links--node.html.twig
+   * links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--patient-testimonials.html.twig
+   * field--node--body.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--body.html.twig
+   x field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;clearfix text-formatted field field--name-body field--type-text-with-summary field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Body&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;&lt;p&gt;Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-image--patient-testimonials.html.twig
+   * field--node--field-patient-image.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-image.html.twig
+   * field--image.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-image field--type-image field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient image&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image_formatter&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+  
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+&lt;img src=&quot;/sites/default/files/2021-05/patient-img-4_0.jpg&quot; width=&quot;140&quot; height=&quot;140&quot; alt=&quot;patient image&quot; loading=&quot;lazy&quot; typeof=&quot;foaf:Image&quot; /&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-occupation--patient-testimonials.html.twig
+   * field--node--field-patient-occupation.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-occupation.html.twig
+   * field--string.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-occupation field--type-string field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient occupation&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;Scientist&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Wed, 05 May 2021 23:57:50 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">29 at http://mysite.com</guid>
+    </item>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+<item>
+  <title>Sam</title>
+  <link>http://mysite.com/node/28</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--patient-testimonials.html.twig
+   x field--node--title.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-title field--type-string field--label-hidden&quot;&gt;Sam&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--patient-testimonials.html.twig
+   x field--node--uid.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-uid field--type-entity-reference field--label-hidden&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--patient-testimonials.html.twig
+   x field--node--created.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-created field--type-created field--label-hidden&quot;&gt;Wed, 05/05/2021 - 23:57&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links--inline.html.twig
+   * links--node.html.twig
+   * links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--patient-testimonials.html.twig
+   * field--node--body.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--body.html.twig
+   x field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;clearfix text-formatted field field--name-body field--type-text-with-summary field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Body&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;&lt;p&gt;Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-image--patient-testimonials.html.twig
+   * field--node--field-patient-image.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-image.html.twig
+   * field--image.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-image field--type-image field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient image&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image_formatter&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+  
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+&lt;img src=&quot;/sites/default/files/2021-05/patient-img-6_0.jpg&quot; width=&quot;140&quot; height=&quot;140&quot; alt=&quot;patient image&quot; loading=&quot;lazy&quot; typeof=&quot;foaf:Image&quot; /&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-occupation--patient-testimonials.html.twig
+   * field--node--field-patient-occupation.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-occupation.html.twig
+   * field--string.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-occupation field--type-string field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient occupation&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;Programmer&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Wed, 05 May 2021 23:57:03 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">28 at http://mysite.com</guid>
+    </item>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+<item>
+  <title>Mel. P</title>
+  <link>http://mysite.com/node/24</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--patient-testimonials.html.twig
+   x field--node--title.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-title field--type-string field--label-hidden&quot;&gt;Mel. P&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--patient-testimonials.html.twig
+   x field--node--uid.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-uid field--type-entity-reference field--label-hidden&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--patient-testimonials.html.twig
+   x field--node--created.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-created field--type-created field--label-hidden&quot;&gt;Wed, 05/05/2021 - 21:30&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links--inline.html.twig
+   * links--node.html.twig
+   * links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--patient-testimonials.html.twig
+   * field--node--body.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--body.html.twig
+   x field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;clearfix text-formatted field field--name-body field--type-text-with-summary field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Body&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;&lt;p&gt;Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-image--patient-testimonials.html.twig
+   * field--node--field-patient-image.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-image.html.twig
+   * field--image.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-image field--type-image field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient image&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image_formatter&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+  
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+&lt;img src=&quot;/sites/default/files/2021-05/patient-img-2_0.jpg&quot; width=&quot;140&quot; height=&quot;140&quot; alt=&quot;patient image&quot; loading=&quot;lazy&quot; typeof=&quot;foaf:Image&quot; /&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-occupation--patient-testimonials.html.twig
+   * field--node--field-patient-occupation.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-occupation.html.twig
+   * field--string.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-occupation field--type-string field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient occupation&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;Teacher&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Wed, 05 May 2021 21:30:52 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">24 at http://mysite.com</guid>
+    </item>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+<item>
+  <title>Matt W.</title>
+  <link>http://mysite.com/node/22</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--patient-testimonials.html.twig
+   x field--node--title.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-title field--type-string field--label-hidden&quot;&gt;Matt W.&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--patient-testimonials.html.twig
+   x field--node--uid.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-uid field--type-entity-reference field--label-hidden&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--patient-testimonials.html.twig
+   x field--node--created.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-created field--type-created field--label-hidden&quot;&gt;Wed, 05/05/2021 - 21:16&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links--inline.html.twig
+   * links--node.html.twig
+   * links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--patient-testimonials.html.twig
+   * field--node--body.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--body.html.twig
+   x field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;clearfix text-formatted field field--name-body field--type-text-with-summary field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Body&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;&lt;p&gt;Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-image--patient-testimonials.html.twig
+   * field--node--field-patient-image.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-image.html.twig
+   * field--image.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-image field--type-image field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient image&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image_formatter&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+  
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+&lt;img src=&quot;/sites/default/files/2021-05/patient-img-1.jpg&quot; width=&quot;140&quot; height=&quot;140&quot; alt=&quot;patient image&quot; loading=&quot;lazy&quot; typeof=&quot;foaf:Image&quot; /&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-occupation--patient-testimonials.html.twig
+   * field--node--field-patient-occupation.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-occupation.html.twig
+   * field--string.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-occupation field--type-string field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient occupation&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;Florist&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Wed, 05 May 2021 21:16:50 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">22 at http://mysite.com</guid>
+    </item>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+<item>
+  <title>Scott Boxer</title>
+  <link>http://mysite.com/node/21</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--patient-testimonials.html.twig
+   x field--node--title.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-title field--type-string field--label-hidden&quot;&gt;Scott Boxer&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--patient-testimonials.html.twig
+   x field--node--uid.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-uid field--type-entity-reference field--label-hidden&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/user/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--patient-testimonials.html.twig
+   x field--node--created.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+&lt;span class=&quot;field field--name-created field--type-created field--label-hidden&quot;&gt;Wed, 05/05/2021 - 21:03&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links--inline.html.twig
+   * links--node.html.twig
+   * links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/navigation/links--inline.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--patient-testimonials.html.twig
+   * field--node--body.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--body.html.twig
+   x field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;clearfix text-formatted field field--name-body field--type-text-with-summary field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Body&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;&lt;p&gt;Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-image--patient-testimonials.html.twig
+   * field--node--field-patient-image.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-image.html.twig
+   * field--image.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-image field--type-image field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient image&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image_formatter&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+  
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;image&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+&lt;img src=&quot;/sites/default/files/2021-05/review-author-3_9.jpg&quot; width=&quot;140&quot; height=&quot;140&quot; alt=&quot;patient image&quot; loading=&quot;lazy&quot; typeof=&quot;foaf:Image&quot; /&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image.html.twig&#039; --&gt;
+
+
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig&#039; --&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-patient-occupation--patient-testimonials.html.twig
+   * field--node--field-patient-occupation.html.twig
+   * field--node--patient-testimonials.html.twig
+   * field--field-patient-occupation.html.twig
+   * field--string.html.twig
+   x field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+  &lt;div class=&quot;field field--name-field-patient-occupation field--type-string field--label-visually_hidden&quot;&gt;
+    &lt;div class=&quot;field__label visually-hidden&quot;&gt;Patient occupation&lt;/div&gt;
+              &lt;div class=&quot;field__item&quot;&gt;Photographer&lt;/div&gt;
+          &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/contrib/bootstrap_barrio/templates/field/field.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Wed, 05 May 2021 21:03:57 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">21 at http://mysite.com</guid>
+    </item>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-row-rss.html.twig' -->
+
+
+  </channel>
+</rss>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/views/views-view-rss.html.twig' -->
+
