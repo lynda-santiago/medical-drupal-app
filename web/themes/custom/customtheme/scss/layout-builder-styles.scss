@@ -1,0 +1,25 @@
+.section-bg-ghostwhite{
+  background: ghostwhite;
+  max-width: 100%;
+  .layout__region{
+    margin: 0 auto;
+    max-width: 1140px;
+  }
+}
+.container-styles{
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.container-styles-ghostwhite{
+  margin: 0 auto;
+  max-width: 1140px;
+  background: ghostwhite;
+}
+.banner-blog-style{
+    img{
+      width: 100vw;
+    height: 292.4px;
+    object-fit: cover;
+    margin-bottom: -200px;
+  }
+}
