@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+#page
+  > div.featured-bottom
+  > aside
+  > section.row.region.region-featured-bottom-first {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  border-bottom: 1px solid #dfd3d3;
+  width: 100%;
+  p{
+      margin-bottom: 4px;
+  }
+  h2{
+      font-size: 1.1rem;
+      font-weight: 700;
+  }
+}
+#page > div.featured-bottom {
+  background: ghostwhite;
+}
+
+#block-medservice {
+  width: 25%;
+}
+#block-customtheme-footer ul .nav-item {
+  position: relative;
+}
+.nav-link--contact {
+  position: absolute;
+  bottom: -168px;
+  left: -249px;
+}
+
+#block-medservice
+  > div.content
+  > div.field.field--name-field-phone-icon.field--type-image.field--label-visually_hidden
+  > div.field__item
+  > img {
+  width: 180px;
+  height: 40px;
+}
+#block-emergency .field--name-field-phone-number > div.field__item {
+  color: #00a3c8;
+  font-weight: 700;
+  font-size: 20px;
+}
+#block-medservice .field--name-field-phone-icon div.field__item {
+  position: absolute;
+  top: 0;
+}
+#block-medservice
+  > div.content
+  > div.clearfix.text-formatted.field.field--name-body.field--type-text-with-summary
+  > div.field__item
+  > p {
+  position: absolute;
+    bottom: -150px;
+}
+#block-medservice > div > div.clearfix.text-formatted.field.field--name-body.field--type-text-with-summary.field--label-visually_hidden > div.field__item{
+    position: relative;
+}
+#block-medservice > div > div.field.field--name-field-phone-icon.field--type-image.field--label-visually_hidden > div.field__item{
+    position: relative;
+}
+#page > div.featured-bottom > aside > section.row.region.region-featured-bottom-second{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
