@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+#block-customtheme-content > div > article > div > div:nth-child(6) {
+  background-image: url("/themes/custom/customtheme/components/med_stat_row/background.jpg");
+  padding: 80px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#block-customtheme-content > div > article > div > div:nth-child(6) > div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.med-stat-block {
+  max-width: 285px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  align-items: center;
+
+  img {
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+  }
+  .stat-digits {
+    font-size: 44px;
+    color: white;
+    font-weight: 700;
+  }
+  .stat-title {
+    color: white;
+  }
+}

@@ -1,0 +1,9 @@
+{% embed '@bootstrap_barrio/templates/layout/page.html.twig' %}
+	{% block content %}
+			{% embed '@myComponents/med_stat_row/med_stat_row.html.twig' with {
+  title_heading: label,
+  stat_digits: content.field_stat_digits,
+  stat_logo: content.field_stat_logo
+} %}{% endembed %}
+	{% endblock %}
+{% endembed %}
