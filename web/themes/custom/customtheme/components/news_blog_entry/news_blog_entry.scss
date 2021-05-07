@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.block-views-blocknews-blog-block-1 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.news-entry-block {
+  max-width: 385px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  .news-title {
+    color: #004861;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  p {
+    color: #666;
+  }
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0;
+  }
+}
