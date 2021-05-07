@@ -1,0 +1,8 @@
+uuid: 23e6bf5b-b3d6-4e60-aee9-8b9d436d2272
+langcode: en
+status: true
+dependencies: {  }
+id: view_all_doctors
+label: 'View all doctors'
+revision: 0
+description: ''

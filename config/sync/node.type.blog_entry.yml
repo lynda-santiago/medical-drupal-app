@@ -1,0 +1,17 @@
+uuid: 0e9acde0-e45a-4267-a520-b66616dab5dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Doctor Blog Entry'
+type: blog_entry
+description: 'Create a new Doctor Blog entry'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: true

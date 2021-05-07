@@ -1,0 +1,23 @@
+uuid: 3fcc8272-1c3e-48f1-905a-7cfffcf50808
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.view_all_doctors
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.view_all_doctors.body
+field_name: body
+entity_type: block_content
+bundle: view_all_doctors
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,19 @@
+uuid: 51f8b11e-05f0-4321-a9ce-cbcc2594cdc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doctor_type
+    - node.type.blog_entry
+id: node.blog_entry.field_doctor_type
+field_name: field_doctor_type
+entity_type: node
+bundle: blog_entry
+label: 'Doctor Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

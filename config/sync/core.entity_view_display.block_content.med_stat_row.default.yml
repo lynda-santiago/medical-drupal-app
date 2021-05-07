@@ -1,0 +1,33 @@
+uuid: d5423a82-2fd0-4f23-99c6-171e5716b839
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.med_stat_row
+    - field.field.block_content.med_stat_row.field_stat_digits
+    - field.field.block_content.med_stat_row.field_stat_logo
+  module:
+    - image
+id: block_content.med_stat_row.default
+targetEntityType: block_content
+bundle: med_stat_row
+mode: default
+content:
+  field_stat_digits:
+    weight: 1
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_stat_logo:
+    weight: 0
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

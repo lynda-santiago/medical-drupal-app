@@ -1,0 +1,8 @@
+uuid: e614f92a-3ccc-4d08-8ad0-ce7d6a6f50f9
+langcode: en
+status: true
+dependencies: {  }
+id: med_stat_row
+label: 'Med Stat Row'
+revision: 0
+description: ''

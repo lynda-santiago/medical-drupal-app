@@ -1,0 +1,19 @@
+uuid: 0cebe771-60ef-4c9b-812c-0217819a7bd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.treatment_plans
+    - field.storage.block_content.field_recurrence
+id: block_content.treatment_plans.field_recurrence
+field_name: field_recurrence
+entity_type: block_content
+bundle: treatment_plans
+label: Recurrence
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

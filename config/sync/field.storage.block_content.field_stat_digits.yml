@@ -1,0 +1,21 @@
+uuid: 218c4c52-03e4-44d3-95f7-b337df00f10a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_stat_digits
+field_name: field_stat_digits
+entity_type: block_content
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

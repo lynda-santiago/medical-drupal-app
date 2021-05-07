@@ -1,0 +1,23 @@
+uuid: 78c51a54-f127-4748-ad16-7e35837be9fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.treatment_plans
+    - field.storage.block_content.field_select_plan_link
+  module:
+    - link
+id: block_content.treatment_plans.field_select_plan_link
+field_name: field_select_plan_link
+entity_type: block_content
+bundle: treatment_plans
+label: 'select plan link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

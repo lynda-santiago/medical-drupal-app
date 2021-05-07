@@ -1,0 +1,8 @@
+uuid: cc7502e4-371a-493f-a144-35132732bdb3
+langcode: en
+status: true
+dependencies: {  }
+id: treatment_plans
+label: 'Treatment plans'
+revision: 0
+description: ''

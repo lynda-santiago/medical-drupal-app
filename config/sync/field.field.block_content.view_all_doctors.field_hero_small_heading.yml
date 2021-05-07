@@ -1,0 +1,19 @@
+uuid: 12c77136-6aef-49a8-95fd-2b098219d35b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.view_all_doctors
+    - field.storage.block_content.field_hero_small_heading
+id: block_content.view_all_doctors.field_hero_small_heading
+field_name: field_hero_small_heading
+entity_type: block_content
+bundle: view_all_doctors
+label: 'View Doctors Small Heading'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

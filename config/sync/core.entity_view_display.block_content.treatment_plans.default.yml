@@ -1,0 +1,65 @@
+uuid: 32a8993f-0fd8-4104-9254-55ec00a720cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.treatment_plans
+    - field.field.block_content.treatment_plans.body
+    - field.field.block_content.treatment_plans.field_recurrence
+    - field.field.block_content.treatment_plans.field_select_plan_link
+    - field.field.block_content.treatment_plans.field_treatment_logo
+    - field.field.block_content.treatment_plans.field_treatment_price
+  module:
+    - image
+    - link
+    - text
+id: block_content.treatment_plans.default
+targetEntityType: block_content
+bundle: treatment_plans
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_recurrence:
+    weight: 4
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_select_plan_link:
+    weight: 2
+    label: visually_hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_treatment_logo:
+    weight: 1
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_treatment_price:
+    weight: 3
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

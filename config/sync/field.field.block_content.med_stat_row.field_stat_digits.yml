@@ -1,0 +1,19 @@
+uuid: 11c25eec-c242-48a2-98c5-d01b154baa1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.med_stat_row
+    - field.storage.block_content.field_stat_digits
+id: block_content.med_stat_row.field_stat_digits
+field_name: field_stat_digits
+entity_type: block_content
+bundle: med_stat_row
+label: 'Stat Digits'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

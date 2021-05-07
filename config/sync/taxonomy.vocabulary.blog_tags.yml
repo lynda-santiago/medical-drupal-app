@@ -1,0 +1,8 @@
+uuid: d083b290-8503-443a-9031-cb1002b9808f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Doctor Blog tags'
+vid: blog_tags
+description: ''
+weight: 0

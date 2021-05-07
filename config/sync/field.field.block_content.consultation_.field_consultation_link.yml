@@ -1,0 +1,23 @@
+uuid: 4a904362-06c0-4bdf-9daf-3416a80c5bb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.consultation_
+    - field.storage.block_content.field_consultation_link
+  module:
+    - link
+id: block_content.consultation_.field_consultation_link
+field_name: field_consultation_link
+entity_type: block_content
+bundle: consultation_
+label: 'Consultation link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

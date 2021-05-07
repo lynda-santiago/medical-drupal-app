@@ -1,0 +1,47 @@
+uuid: 8055ac1e-b3cd-426c-ae7a-426651c9761d
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.news_blog.body
+    - field.field.node.news_blog.field_news_blog_image
+    - field.field.node.news_blog.field_news_link
+    - node.type.news_blog
+  module:
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: node.news_blog.full
+targetEntityType: node
+bundle: news_blog
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_news_blog_image:
+    weight: 102
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_news_link: true

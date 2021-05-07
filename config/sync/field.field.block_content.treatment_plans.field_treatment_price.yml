@@ -1,0 +1,19 @@
+uuid: b87b5d96-bec7-4c0c-9b1e-fd13b3e8f80b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.treatment_plans
+    - field.storage.block_content.field_treatment_price
+id: block_content.treatment_plans.field_treatment_price
+field_name: field_treatment_price
+entity_type: block_content
+bundle: treatment_plans
+label: 'Treatment price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

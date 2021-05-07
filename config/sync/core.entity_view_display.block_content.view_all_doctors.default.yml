@@ -1,0 +1,56 @@
+uuid: 5c790069-0fe1-44d6-a236-da1bd2fd6b26
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.view_all_doctors
+    - field.field.block_content.view_all_doctors.body
+    - field.field.block_content.view_all_doctors.field_button_link
+    - field.field.block_content.view_all_doctors.field_hero_image
+    - field.field.block_content.view_all_doctors.field_hero_small_heading
+  module:
+    - image
+    - link
+    - text
+id: block_content.view_all_doctors.default
+targetEntityType: block_content
+bundle: view_all_doctors
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_button_link:
+    weight: 2
+    label: visually_hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_hero_image:
+    weight: 3
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_hero_small_heading:
+    weight: 1
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

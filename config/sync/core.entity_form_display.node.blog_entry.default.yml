@@ -1,62 +1,72 @@
-uuid: 69856690-3666-44c9-9292-f6e45f7aab2a
+uuid: fb8e7689-4c89-47b8-959a-413b15985046
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.article.body
-    - field.field.node.article.comment
-    - field.field.node.article.field_image
-    - field.field.node.article.field_tags
+    - field.field.node.blog_entry.body
+    - field.field.node.blog_entry.field_blog_image
+    - field.field.node.blog_entry.field_blog_link
+    - field.field.node.blog_entry.field_blog_tags
+    - field.field.node.blog_entry.field_doctor_type
     - image.style.thumbnail
-    - node.type.article
+    - node.type.blog_entry
   module:
     - image
+    - link
     - path
     - text
-_core:
-  default_config_hash: 6VUXB1jTUjK5zjkfMa2Kd2WW4sFUlgfBlfJSx01qLpU
-id: node.article.default
+id: node.blog_entry.default
 targetEntityType: node
-bundle: article
+bundle: blog_entry
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 1
-    region: content
+    weight: 5
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  created:
-    type: datetime_timestamp
-    weight: 5
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_image:
-    type: image_image
-    weight: 3
-    region: content
+  field_blog_image:
+    weight: 6
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
-    weight: 2
+    type: image_image
     region: content
+  field_blog_link:
+    weight: 26
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_blog_tags:
+    weight: 7
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_doctor_type:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   path:
     type: path
-    weight: 8
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -64,21 +74,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 1
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 4
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 7
+    weight: 2
     region: content
     third_party_settings: {  }
   title:
@@ -89,15 +99,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 4
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
 hidden:
-  comment: true
+  created: true
+  uid: true
