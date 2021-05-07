@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-#block-customtheme-content
- > div
- > article
- > div
- > div.layout.layout--fourcol-section {
- max-width: 1140px;
- margin: 0 auto;
- position: relative;
- top: -160px;
+// #block-customtheme-content
+//  > div
+//  > article
+//  > div
+//  > div.layout.layout--fourcol-section {
+//  max-width: 1140px;
+//  margin: 0 auto;
+//  position: relative;
+//  top: -160px;
+// }
+#block-customtheme-content > div > article > div > div:nth-child(2){
+    max-width: 1140px;
+    margin: 0 auto;
 }
 #block-customtheme-content
  > div
@@ -71,7 +75,7 @@ div.phone-num img{
   max-width: 1140px;
   display: flex;
   position: absolute;
-  top: -40px;
+  top: -210px;
   left: 0;
   right: 0;
   margin: 0 auto;
